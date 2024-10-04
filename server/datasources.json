@@ -1,0 +1,27 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "my-mongo": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017/",
+    "database": "foottrax-prod",
+    "password": "8008",
+    "name": "my-mongo",
+    "user": "aditya",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  },
+  "mysql": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "url": "mysql://root:globus8008@127.0.0.1/apnacollege",
+    "database": "apnacollege",
+    "password": "globus8008",
+    "name": "mysql",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
